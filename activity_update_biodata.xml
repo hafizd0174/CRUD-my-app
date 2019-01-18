@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UpdateBiodata" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_number"
+                android:layout_width="175dp"
+                android:layout_height="35dp"
+                android:background="@drawable/numbertableshape"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                />
+
+            <TextView
+                android:id="@+id/tv_table_x"
+                android:layout_width="175dp"
+                android:layout_height="200dp"
+                android:background="@drawable/chekshape"
+                android:padding="18dp"
+                android:textColor="#d31024"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="12dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_table_y"
+                android:layout_width="175dp"
+                android:layout_height="175dp"
+                android:background="@drawable/chekshape"
+                android:textColor="#d31024"
+                android:padding="18dp"/>
+
+            <EditText
+                android:id="@+id/et_chek"
+                android:layout_width="175dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/chekshape"
+                android:textAlignment="center"
+                android:textColor="#d31024"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                tools:hint="information or values"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/pict"
+        android:layout_width="500dp"
+        android:layout_height="180dp"
+        android:background="@drawable/pict"
+        android:padding="8dp"
+        android:src="@drawable/pict_a" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/numbertableshape"
+            android:gravity="center"
+            android:text="S"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/bt_perv"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/numbertableshape"
+            android:gravity="center"
+            android:text="P"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:onClick="btPerv"
+            />
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/chekshape"
+            android:gravity="center"
+            android:textColor="#d31024"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            tools:hint="search"
+            />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/numbertableshape"
+            android:gravity="center"
+            android:text="N"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:onClick="btNext"
+            />
+
+        <Button
+            android:id="@+id/bt_export"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/numbertableshape"
+            android:gravity="center"
+            android:text="E"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/table_1"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+
+        />
+    <TextView
+        android:id="@+id/table_2"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:id="@+id/table_3"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:id="@+id/table_4"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:id="@+id/table_5"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:id="@+id/table_6"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:id="@+id/table_7"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:id="@+id/table_8"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:id="@+id/table_9"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        />
+    <TextView
+        android:id="@+id/table_10"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        />
+
+
+
+
+
+
+</LinearLayout>
